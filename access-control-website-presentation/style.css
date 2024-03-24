@@ -1,0 +1,385 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*nav menu*/
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;  
+    width: 100%;
+    background: #fff;
+    position: fixed; 
+    border-bottom: 3px solid #d1cdcd;
+}
+
+.logo h3 {
+   font-size: 1.5rem;
+}
+
+.logo h3 a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.logo h3 a span {
+    text-decoration: none;
+    color: #4A55A2;
+    text-transform: uppercase;
+}
+
+.menu-bar ul {
+    display: flex;
+}
+
+.menu-bar ul li {
+    padding: 30px;
+    list-style: none;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #4A55A2;
+    transition: all .2s ease-in-out;
+}
+
+.menu-bar ul li a:hover{
+    color: #7895CB;
+}
+
+/*header*/
+#header {
+    background: rgba(0, 0, 0, 0.599);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    height: 200px;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container .title h4{
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.container .title h1 {
+    color: #4256e8;
+}
+
+
+.container .title h2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.container .title h3 {
+    font-size: .8rem;
+    align-items: end;
+    color: #7895CB;
+}
+
+
+
+
+/*about*/
+
+.about-title {
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 3rem;
+    background: #F5EFE7;
+}
+
+
+#about {
+    background: #F5EFE7;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.inside-container-about {
+    display: flex;
+    justify-content: center;
+}
+
+.img-about {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-about img {
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
+}
+
+.texto-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-about h3 {
+    font-size: 3rem;
+    color: #4A55A2;
+    margin-bottom: 10px;
+}
+
+.texto-about p {
+    text-align: justify;
+    margin-bottom: 60px;
+}
+
+
+.texto-about button {
+    border-radius: 30px;
+    padding: 20px;
+    border: none;
+    background: #4A55A2;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.texto-about button:hover {
+   border: border solid #4A55A2;
+   background: #F6F1F1;
+}
+
+
+.texto-about button a {
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.texto-about button a:hover {
+    color: #4A55A2;
+}
+
+.inside-text-about {
+    width: 50%;
+}
+
+/*apt*/
+#apt {
+    background: #7a1e1e;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-apt-background {
+    width: 100%;
+
+    height: 100%;
+    background: url(img/projeto.png) no-repeat;
+    background-size: cover;
+}
+
+.container-apt {
+    width: 100%;
+    background: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.texto-apt {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.texto-apt h1 {
+    margin-bottom: 50px;
+    font-size: 4rem;
+    line-height: 70px;
+    text-align: justify;
+}
+
+.texto-apt p {
+    text-align: justify;
+}
+.title-year {
+    display: flex;
+}
+
+.texto-apt h3 {
+    margin-top: 60px;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.texto-apt h3 span {
+    color: #4A55A2;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+/*apt-1*/
+#apt-1 {
+    background: #ffffff;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-apt-1 {
+    width: 700px;
+}
+.title-apt-1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+
+.inside-box {
+    display: flex;
+    padding: 40px;
+    width: 100%;
+    justify-content: space-around;
+    color: #4256e8;
+    font-size: 1.5rem;
+}
+
+/*projeto*/
+#projeto {
+    background: #4256e8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-background-projeto {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    background: url('img/projeto.png') no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-carrocel {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-carrocel img {
+    border: solid 6px #00000019;
+    height: 20rem;
+    width: 30rem;
+    border-radius: 5%;
+}
+
+.container-projeto {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-container-projeto {
+    height: 50%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-title h2 {
+    font-size: 5rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 70px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-projeto {
+    text-align: justify;
+}
+
+.text-projeto h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: fff;
+}
+
+/*footer*/
+footer {
+    height: 40vh;
+    display: flex;
+    background: #ffff;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container-footer a {
+    text-decoration: none;
+    color: #4256e8;
+}
